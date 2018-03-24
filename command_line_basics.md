@@ -64,11 +64,28 @@ If we want to change directories into the parent folder, we use "..".
 - Up three folder: 	```cd ../../../```
 - etc...
 
-```{r, engine='bash', count_lines}
-simeonkakpovi@Simeons-MBP-2:~/topsecret/memes/dank$ pwd
-/Users/simeonkakpovi/topsecret/memes/dank
-simeonkakpovi@Simeons-MBP-2:~/topsecret/memes/dank$ cd ../../
-simeonkakpovi@Simeons-MBP-2:~/topsecret$ pwd
-/Users/simeonkakpovi/topsecret
+```console
+user:~/topsecret/memes/dank$ pwd
+/Users/user/topsecret/memes/dank
+
+user:~/topsecret/memes/dank$ cd ../../
+user:~/topsecret$ pwd
+/Users/user/topsecret
+```
+
+__Using an absolute path__
+
+If you want your cd command to work in the same way no matter which folder you are currently in, use an absolute path. Unlike relative paths, absolute paths begin with a "/" and start from your system's root path. Relative paths start from your current folder.
+
+The following two commnads yield the same result. The latter, however, will yield the same result in any folder. 
+
+```console
+user:~/topsecret$ cd memes/dank/
+user:~/topsecret/memes/dank$ 
+```
+
+```console
+user:~/topsecret$ cd /Users/user/topsecret/memes/dank
+user:~/topsecret/memes/dank$ 
 ```
 
