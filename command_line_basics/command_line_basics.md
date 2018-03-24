@@ -10,7 +10,7 @@ You can give it either a relative or absolute path.
 
 Suppose we have the following folder structure:
 
-![image1](assets/img1.png)
+![image1](../assets/img1.png)
 
 **Let's navigate into the memes folder**
 
