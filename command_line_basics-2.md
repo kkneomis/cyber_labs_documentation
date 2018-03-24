@@ -14,7 +14,7 @@ user:~/topsecret/files$ ls
 file1.txt file2.txt file3.txt
 ```
 
-By default, ls should us the files that would normally be visible in a GUI interface. However there can sometimes be hidden files. To view these, we use ```ls -a```. Hidden files usually start with a period in their names. 
+By default, ls shows us the files that would normally be visible in a GUI interface. However there can sometimes be hidden files. To view these, we use ```ls -a```. Hidden files usually start with a period in their names. 
 
 ```console
 user:~/topsecret/files$ ls -a
