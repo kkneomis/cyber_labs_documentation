@@ -1,10 +1,13 @@
 # Cyber Labs
 
+### Synopsis
+This project is an attempt to create a modularized lab setup that cybersecurity instructors can easily use to supplement their course materials in introductory classes. By completing these labs, students will significant exposure to cybersecurity tools.
+
 ### Introduction 
 
 Traditional cybersecurity instruction at the undergraduate level relies overwhelmingly on theory as a method of conveying information. Students are often taught about various networking and security ideas on a conceptual without actually getting a chance to interact with them. However, without hands-on experience with the tools to which these concepts apply, it may be more difficult for learners to effectively attain a deep understanding of information security. Participative learning exercises and labs allow students to swiftly build mental bridges between independent concepts, and to confidently apply their knowledge to new ideas. Such a skill makes students significantly more attractive in the job market as it reduces the burden on the employer as it relates to training. 
 
-Perhaps one explanation for lack the of practical exercises in cybersecurity courses is the scarcity of easily accessible and application lab content. This is especially true at for introductory modules. Instructors often do not have the time or expertise to create effectual lab exercises, or the budget to purchase and install them in an environment accessible to students. 
+Perhaps one explanation for lack the of practical exercises in cybersecurity courses is the scarcity of easily accessible and application lab content. This is especially true for introductory modules. Instructors often do not have the time or expertise to create effectual lab exercises, or the budget to purchase and install them in an environment accessible to students. 
 
 This project is an attempt to create a modularized lab setup that cybersecurity instructors can easily use to supplement their course materials in introductory classes. It contains a series of gamified exercises centered around various cybersecurity tools and concepts, all packaged neatly inside a virtual machine. Students may access the exercises by setting up the virtual machine locally or by connecting to networked instance of the virtual machine using the secure shell protocol (ssh).  This approach was inspired by the OverTheWire project: http://overthewire.org/.
 	
