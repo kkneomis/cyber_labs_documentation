@@ -29,7 +29,7 @@ The move (mv) command allows us to move a file from one location to another.
 
 Usage: ```mv [filename] [location]```
 
-Here we move file1.txt to the parent directory.
+Here we move file1.txt up into the parent directory.
 
 ```console
 user:~/topsecret/files$ ls
@@ -41,7 +41,10 @@ docs      file1.txt files     gifs      memes     pics
 ```
 
 The mv command can also be used to change the name of file.
+
 Usage: ```mv [filename] [newname]```
+
+In this example, we are chaning the name of 'file1.txt' to 'newname.txt'.
 
 ```console
 user:~/topsecret/files$ ls

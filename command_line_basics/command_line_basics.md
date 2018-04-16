@@ -25,7 +25,7 @@ user:~/topsecret/memes$ pwd
 /Users/user/topsecret/memes
 ```
 
-Here we simply change directories into the memes folder. Notice, in the second line, our path changed. We are now inside that folder.
+Here we simply change directories into the memes folder. Notice that in the second line, our path changed. We are now inside that folder.
 
 __Let's navigate into the dank folder__ 
 
@@ -57,7 +57,7 @@ We can either go into the "dank" folder by giving it the full path to that folde
 
 __Cd out of a folder__
 
-If we want to change directories into the parent folder, we use "..".
+If we want change directories into the parent folder, we use ".." as the relative location.
 
 - Up one folder: 	```cd ..```
 - Up two folders: 	```cd ../../```
@@ -77,7 +77,7 @@ __Using an absolute path__
 
 If you want your cd command to work in the same way no matter which folder you are currently in, use an absolute path. Unlike relative paths, absolute paths begin with a "/" and start from your system's root path. Relative paths start from your current folder.
 
-The following two commnads yield the same result. The latter, however, will yield the same result in any folder. 
+The following two commands yield the same result. The latter, however, will yield the same result in any folder. 
 
 ```console
 user:~/topsecret$ cd memes/dank/
