@@ -12,7 +12,7 @@ Molly 18 C
 Tyrone 17 A
 Candice 16 B
 
-user$ cat data.txt |  awk '{print $1}'
+user$: cat data.txt |  awk '{print $1}'
 Name
 Paul
 Molly
@@ -23,7 +23,7 @@ Candice
 Suppose, instead, we wanted to select the third column instead. We would change ```$1``` to ```$3``` to reflect the appropriate column.
 
 ```console
-user$ cat data.txt |  awk '{print $3}'
+user$: cat data.txt |  awk '{print $3}'
 Grade
 A
 C
@@ -41,7 +41,7 @@ Molly,18,C
 Tyrone,17,A
 Candice,16,B
 
-user$ cat data.txt |  awk -F "," '{print $1}'
+user$: cat data.txt |  awk -F "," '{print $1}'
 Name
 Paul
 Molly
@@ -52,7 +52,7 @@ Candice
 We can also add logic to our command. In this example we will print every in the file except for the header (first line).
 
 ```console
-user$ cat data.txt | awk -F ',' '{if(NR>1) print}'
+user$: cat data.txt | awk -F ',' '{if(NR>1) print}'
 Paul,15,A
 Molly,18,C
 Tyrone,17,A
@@ -63,7 +63,7 @@ Candice,16,B
 Awk can also be used to reformat the data to a prefered view.
 
 ```console
-user$ cat data.txt | awk -F ',' '{if(NR>1) print}'|  awk -F "," '{print "Name: "$1 "\tAge: "$2 "\tGrade:"$3}' 
+user$: cat data.txt | awk -F ',' '{if(NR>1) print}'|  awk -F "," '{print "Name: "$1 "\tAge: "$2 "\tGrade:"$3}' 
 Name: Paul      Age: 15 Grade:A
 Name: Molly     Age: 18 Grade:C
 Name: Tyrone    Age: 17 Grade:A
