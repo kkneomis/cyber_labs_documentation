@@ -22,7 +22,7 @@ about using the wc command
 Here's how we can search for all the lines containing the word "world."
 
 ```console
-user$ grep "world" file.txt 
+user$ grep "the" file.txt 
 the sample text that
 about using the wc command
 ```
